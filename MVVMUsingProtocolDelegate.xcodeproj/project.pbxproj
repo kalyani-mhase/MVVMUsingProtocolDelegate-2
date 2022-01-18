@@ -13,6 +13,10 @@
 		84488BD827967E6E00CC7570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84488BD627967E6E00CC7570 /* Main.storyboard */; };
 		84488BDA27967E7000CC7570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84488BD927967E7000CC7570 /* Assets.xcassets */; };
 		84488BDD27967E7000CC7570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84488BDB27967E7000CC7570 /* LaunchScreen.storyboard */; };
+		84488BE527967E8E00CC7570 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84488BE427967E8E00CC7570 /* User.swift */; };
+		84488BE727967E9F00CC7570 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84488BE627967E9F00CC7570 /* Service.swift */; };
+		84488BE927967EB700CC7570 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84488BE827967EB700CC7570 /* UserViewModel.swift */; };
+		849AB3C42796AED900D390C6 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AB3C32796AED900D390C6 /* UserTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		84488BD927967E7000CC7570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84488BDC27967E7000CC7570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84488BDE27967E7000CC7570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84488BE427967E8E00CC7570 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84488BE627967E9F00CC7570 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		84488BE827967EB700CC7570 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		849AB3C32796AED900D390C6 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				84488BD927967E7000CC7570 /* Assets.xcassets */,
 				84488BDB27967E7000CC7570 /* LaunchScreen.storyboard */,
 				84488BDE27967E7000CC7570 /* Info.plist */,
+				84488BE427967E8E00CC7570 /* User.swift */,
+				84488BE627967E9F00CC7570 /* Service.swift */,
+				84488BE827967EB700CC7570 /* UserViewModel.swift */,
+				849AB3C32796AED900D390C6 /* UserTableViewCell.swift */,
 			);
 			path = MVVMUsingProtocolDelegate;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84488BE527967E8E00CC7570 /* User.swift in Sources */,
+				84488BE927967EB700CC7570 /* UserViewModel.swift in Sources */,
+				849AB3C42796AED900D390C6 /* UserTableViewCell.swift in Sources */,
 				84488BD527967E6E00CC7570 /* ViewController.swift in Sources */,
+				84488BE727967E9F00CC7570 /* Service.swift in Sources */,
 				84488BD127967E6E00CC7570 /* AppDelegate.swift in Sources */,
 				84488BD327967E6E00CC7570 /* SceneDelegate.swift in Sources */,
 			);
